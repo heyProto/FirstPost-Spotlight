@@ -117,7 +117,7 @@
   display: none;
   /* display: inline-block; */
   font-size: 9px;
-  color: #333;
+  color: #333333;
   font-family: "cabin";
   text-transform: uppercase;
   letter-spacing: 0.5px;
@@ -260,13 +260,13 @@
 .proto-footer .footer-link{
     font-size: 12px;
     font-family: "cabin";
-    color: #333;
+    color: #333333;
     line-height: 70px;
     letter-spacing: 0.5px;
     text-decoration: none;
 }
 .proto-footer .footer-link a:visited,.proto-footer .footer-link a:hover,.proto-footer .footer-link a:link,.proto-footer .footer-link a:active {
-    color: #333;
+    color: #333333;
     text-decoration: none;
 }
 

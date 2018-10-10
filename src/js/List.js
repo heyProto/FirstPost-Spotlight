@@ -32,6 +32,61 @@ class ListCards extends React.Component {
     })
   }
 
+  renderIcons(platforms) {
+    let iconDefaults = [
+      {
+        type: "Facebook",
+        icon_url: "https://next.pro.to/assets/social-icons/facebook.png"
+      },
+      {
+        type: "Twitter",
+        icon_url: "https://next.pro.to/assets/social-icons/twitter.png"
+      },
+      {
+        type: "Whatsapp",
+        icon_url: "https://next.pro.to/assets/social-icons/whatsapp.png"
+      },
+      {
+        type: "Instagram",
+        icon_url: "https://next.pro.to/assets/social-icons/instagram.png"
+      },
+      {
+        type: "Youtube",
+        icon_url: "https://next.pro.to/assets/social-icons/youtube.png"
+      },
+      {
+        type: "Other",
+        icon_url: "https://next.pro.to/assets/social-icons/facebook.png"
+      }
+    ];
+    let icons = [];
+    let counter = 0;
+    iconDefaults.forEach(x => {
+      let index = platforms.findIndex(platform => platform.type === x.type);
+      let categoryIcons = [];
+      while (index >= 0) {
+        let iconImage = platforms[index].icon_url || x.icon_url;
+        categoryIcons.push(
+          <div key={counter} className="single-icon">
+            <a href={platforms[index].url}><img src={iconImage} /></a>
+          </div>
+        );
+        counter += 1;
+        platforms.splice(index, 1);
+        index = platforms.findIndex(platform => platform.type === x.type);
+      }
+      icons.push(...categoryIcons);      
+    });
+    let visible = icons.length > 4 ? icons.slice(0,4) : icons;
+    let hidden = icons.slice(4).length;
+    return(
+      visible.length > 0 && <div className="grid-card-icons-footer">
+        {visible}{hidden > 0 && <div className="more-icons-text">and {hidden} more</div>}
+      </div>);
+    
+  }
+
+
   render() {
       if (this.props.dataJSON.length === 0) {
       return(<h2>No cards to display</h2>)

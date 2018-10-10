@@ -43,7 +43,7 @@
 .proto-website-grid-card .grid-card-title{
   font-family: 'Avenir-Bold';
   font-size: 22px;
-  color: #333;
+  color: #333333;
   line-height: 29px;
   font-weight: bold;
   margin-bottom: 4px;
@@ -51,7 +51,7 @@
   
 .proto-website-grid-card .grid-card-subtitle{
   font-size: 14px;
-  color: #333;
+  color: #333333;
   line-height: 19px;
   margin-bottom: 24px;
 }

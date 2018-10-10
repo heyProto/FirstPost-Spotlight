@@ -58,11 +58,11 @@
 }
 .protograph-filter-item:hover {
   cursor: pointer;
-  border-left: 2px solid#333;
-  color:#333;
+  border-left: 2px solid#333333;
+  color:#333333;
 }
 .protograph-filter-item-detail.protograph-show-more-filters .protograph-filter-item {
-  border-left: 2px solid#333;
+  border-left: 2px solid#333333;
 }
 .protograph-filter-item-detail.protograph-show-more-filters .protograph-filter-sub-items-container .protograph-filter-item, .protograph-filter-item-detail.protograph-show-more-filters .protograph-filter-sub-items-container .protograph-filter-item-name {
   border-left: 1px solid #fafafa;
@@ -81,7 +81,7 @@
 }
 
 .protograph-filter-item:hover .protograph-filter-item-name{
-  color:#333;
+  color:#333333;
 }
 
 .protograph-filters-left-align {

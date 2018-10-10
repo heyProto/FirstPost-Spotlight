@@ -54,7 +54,7 @@ body{
 	font-size: 13px;
 	margin-bottom: 10px;
 	font-weight: normal;
-	color: #333;
+	color: #333333;
 }
 
 .modal-close-icon{
@@ -69,7 +69,7 @@ body{
 
 .modal-content{
 	font-size: 12px;
-	color: #333;
+	color: #333333;
 	line-height: 19px;
 }
 
