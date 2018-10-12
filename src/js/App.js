@@ -5,6 +5,8 @@ import List from './List.js';
 import Utils from './utility.js';
 import Filter from "./filter.js";
 import Modal from "./Modal.js";
+import Cover from './cover';
+import Resources from './resources';
 
 class App extends React.Component {
   constructor(props) {
@@ -40,7 +42,7 @@ class App extends React.Component {
           groupBy;
 
         data = card.data;
-        data.sort((x,y) => new Date(y.date) - new Date(x.date));
+        data.sort((x,y) => new Date(y.created_at) - new Date(x.created_at));
         data.forEach((e,i) => { e.u_id = (i+1) });
 
         filters = this.state.filters.map((filter) => {
@@ -354,30 +356,34 @@ class App extends React.Component {
       return this.renderLoader();
     } else {
       return (
-        <div className="banner-area">
-          <div className="proto-col col-4 filter-col protograph-filter-area">
-            <Filter
-              configurationJSON={this.props.filterConfigurationJSON}
-              dataJSON={this.state.filteredDataJSON}
-              filterJSON={this.state.filterJSON}
-              onChange={(e) => {this.onChange(e);}}
-              hintText="Select a parameter to filter by its value."
-            />
-          </div>
-          <div className="proto-col col-12 protograph-app-map-and-list">
-            <div className="tabs list-area active-area" id='list-area'>
-              <List
+        <div className="app">
+          <Cover dataSize={this.state.dataJSON.length}/>
+          <Resources />
+          <div className="banner-area">
+            <div className="proto-col col-4 filter-col protograph-filter-area">
+              <Filter
+                configurationJSON={this.props.filterConfigurationJSON}
                 dataJSON={this.state.filteredDataJSON}
-                mode={this.props.mode}
-                showModal={this.showModal}
+                filterJSON={this.state.filterJSON}
+                onChange={(e) => {this.onChange(e);}}
+                hintText="Select a parameter to filter by its value."
               />
             </div>
-            <Modal
-              showModal={this.state.showModal}
-              closeModal={this.closeModal}
-              mode={this.state.mode}
-              iframeURL={this.state.iframeURL}
-            />
+            <div className="proto-col col-12 protograph-app-map-and-list">
+              <div className="tabs list-area active-area" id='list-area'>
+                <List
+                  dataJSON={this.state.filteredDataJSON}
+                  mode={this.props.mode}
+                  showModal={this.showModal}
+                />
+              </div>
+              <Modal
+                showModal={this.state.showModal}
+                closeModal={this.closeModal}
+                mode={this.state.mode}
+                iframeURL={this.state.iframeURL}
+              />
+            </div>
           </div>
         </div>
       )

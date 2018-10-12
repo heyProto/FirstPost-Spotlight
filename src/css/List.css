@@ -5,89 +5,95 @@
   font-family: Avenir-Bold;
   src: url("https://cdn.protograph.pykih.com/lib/AEH.ttf") format("opentype"); }
 
-.proto-website-grid-card {
-  width: 220px;
-  max-height: 305px;
+.proto-social-post-card {
+  width: 300px;
+  /* border: 1px solid #333333; */
+  height: 280px;
   display: inline-block;
-  float: left;
-  background: white;
   font-family: 'AvenirLTStd-Medium';
+  color: #333333;
 }
-  
-.proto-website-grid-card .single-icon {
+
+.proto-social-post-card .post-brand {
+  height: 10px;
+}
+
+.proto-social-post-card .post-img {
+  margin: 10px 0px;
   display: inline-block;
-  float: left;
-  margin-right: 8px;
-  height: 20px;
-  width: 20px;
-  border-radius: 50%;
-  overflow: hidden;
-  background: #efefef;
+  width: 40px;
+  height: 25px;
+  text-align: right;
 }
 
-.proto-website-grid-card .single-icon img {
-  height: 20px;
-  width: 20px;
+.proto-social-post-card .post-img img {
+  padding: 2px;
+}
+
+.proto-social-post-card .post-content {
+  width: 240px;
+  display: inline-block;
+  vertical-align: top;
+  margin: 0px 10px;
+  padding-top: 15px;
+}
+
+.proto-social-post-card .post-name {
+  /* font-family: 'Avenir-Bold'; */
+  font-size: 13px;
+  padding-right: 5px;
+}
+
+.proto-social-post-card .post-handle {
+  color: #aaaaaa;
+  font-size: 13px;
 }
   
-.proto-website-grid-card .grid-card-cover {
-  margin-bottom: 10px;
-  transition: 0.2s ease-in-out;
-  height: 220px;
-  width: 220px;
+.proto-social-post-card .post-expand {
+  float: right;
+  width: 10px;  
+}  
+
+.proto-social-post-card .post-data {
+  margin: 0px 10px;
+  font-size: 16px;
+  line-height: 24px;
+  height: 150px;
+  overflow-wrap: break-word;
 }
-.proto-website-grid-card:hover .grid-card-cover{
-  box-shadow: 0px 0px 5px lightgrey;
+
+.proto-social-post-card .post-categories {
+  border-top: 1px solid #eeeeee;
 }
-  
-.proto-website-grid-card .grid-card-title{
-  font-family: 'Avenir-Bold';
-  font-size: 22px;
-  color: #333333;
-  line-height: 29px;
-  font-weight: bold;
-  margin-bottom: 4px;
+
+.proto-social-post-card .post-category {
+  margin: 10px;
 }
-  
-.proto-website-grid-card .grid-card-subtitle{
-  font-size: 14px;
-  color: #333333;
-  line-height: 19px;
-  margin-bottom: 24px;
+
+.proto-social-post-card .post-category-title {
+ font-size: 10px;
+  color: #999999;
 }
-  
-.proto-website-grid-card p{
-  font-size: 14px;
-  line-height: 22px;
-  color: #666;
-  font-family: arial;
-  margin-bottom: 16px;
-}
-  
-.proto-website-grid-card .more-icons-text{
+
+.proto-social-post-card .post-category-data {
   font-size: 12px;
-  line-height: 20px;
-  color: #666;
-  font-family: arial;
 }
-  
-.grid-card-icons-footer{
-  margin-bottom: 16px;
-}
-
 
 .protograph-card {
-    width: 220px;
-    height: 306px;
+    width: 300px;
+    height: 280px;
+    background-color: #f9f9f9;
     /* cursor: pointer; */
     display: inline-block;
     text-align: left;
-    margin-right: 20px;
+    margin-right: 15px;
     margin-left: 0px;
     margin-bottom: 20px;
     position: relative;
-    float: left;
     transition: all 250ms cubic-bezier(.02, .01, .47, 1);
+    /* box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2); */
+    border: 1px solid #eeeeee;
+    float: left;
   }
 
   .div-without-margin-right{

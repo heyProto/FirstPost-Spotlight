@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald|Patua+One|Open+Sans');
+
+:root {
+  --basecol: #6a0e7c;
+  --hl1: #26b297;
+  --hl2: #2ee9ff;
+  --hl3: #ffe324;
+}
+
+body {
+  min-width: initial !important;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.protograph-col16-mode {
+  width: 1280px;
+  height: 420px;
+  background: radial-gradient(ellipse, #000, #220427);
+  margin: 0 auto;
+  vertical-align: top;
+  position: relative;
+  
+  margin-bottom: 20px;
+}
+
+.anim-div, .stats-div {
+  color: #fff;
+  height: 100%;
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+.anim-div {
+  width: 60%;
+  overflow: hidden;
+}
+
+.stats-div {
+  width: 40%;
+  vertical-align: top;
+}
+
+.title {
+  color: #fff;
+  font-family: Oswald;
+  font-size: 80px;
+  display: block;
+  height: 100px;
+  margin: auto;
+  width: min-content;
+  line-height: 1;
+  text-transform: uppercase;
+  margin-top: 10px;
+}
+
+.desc {
+  color: #fff;
+  font-family: Open Sans;
+  font-size: 12px;
+  display: block;
+  width: 90%;
+  text-align: justify;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.desc > b {
+  color: var(--hl2);
+}
+
+.flip-num-container {
+  display: block;
+  width: 60%;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.flip-counter {
+  margin: auto;
+  width: 85%;
+}
+
+.flip-num-bg {
+  height: 90px;
+  width: 70px;
+  background-color: var(--hl1);
+  border-radius: 12px;
+  display: inline-block;
+  margin-left: 6px; 
+}
+
+.flip-num {
+  color: #fff;
+  font-family: Patua One;
+  font-size: 75px;
+  line-height: 0.8;
+  padding: 13px;
+  margin: auto;
+  width: min-content;
+}
+
+.flip-counter-caption {
+  display: block;
+  color: #fff;
+  font-family: 'Oswald';
+  text-transform: uppercase;
+  padding: 5px;
+  font-size: 28px;
+  letter-spacing: 2px;
+  line-height: 1;
+  text-align: center;
+}
+
+.tweets {
+  position: relative;
+}
+
+/*Elements*/
+
+.layer1 {
+  position: absolute;
+  z-index: 3;
+  animation: move1 47s -10s linear infinite;
+}
+
+.layer2 {
+  position: absolute;
+  z-index: 2;
+  opacity: 0.85;
+  top: -40px;
+  animation: move2 68s -10s linear infinite;
+}
+
+.layer3 {
+  position: absolute;
+  z-index: 1;
+  opacity: 0.7;
+  top: -35px;
+  left: 40px;
+  animation: move3 85s -30s linear infinite;
+}
+
+
+/*Keyframes*/
+
+@keyframes move1 {
+  from {top: 400px;}
+  to {top: -1000px;}
+}
+
+@keyframes move2 {
+  from {top: 400px;}
+  to {top: -840px;}
+}
+
+@keyframes move3 {
+  from {top: 400px;}
+  to {top: -785px;}
+}
+
+@media only screen and (min-width: 500px) {
+    .protograph-col4-mode {
+        width: 360px;
+    }
+}

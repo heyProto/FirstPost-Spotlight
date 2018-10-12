@@ -9,7 +9,7 @@ class ListCards extends React.Component {
 
     let stateVar = {
       no_of_cards: 28,
-      cardsInRow: window.innerWidth <= 500 ? 1 : 4,
+      cardsInRow: window.innerWidth <= 500 ? 1 : 3,
       cardsVisible: this.props.dataJSON.slice(0, 28)
     };
 
@@ -32,58 +32,12 @@ class ListCards extends React.Component {
     })
   }
 
-  renderIcons(platforms) {
-    let iconDefaults = [
-      {
-        type: "Facebook",
-        icon_url: "https://next.pro.to/assets/social-icons/facebook.png"
-      },
-      {
-        type: "Twitter",
-        icon_url: "https://next.pro.to/assets/social-icons/twitter.png"
-      },
-      {
-        type: "Whatsapp",
-        icon_url: "https://next.pro.to/assets/social-icons/whatsapp.png"
-      },
-      {
-        type: "Instagram",
-        icon_url: "https://next.pro.to/assets/social-icons/instagram.png"
-      },
-      {
-        type: "Youtube",
-        icon_url: "https://next.pro.to/assets/social-icons/youtube.png"
-      },
-      {
-        type: "Other",
-        icon_url: "https://next.pro.to/assets/social-icons/facebook.png"
-      }
-    ];
-    let icons = [];
-    let counter = 0;
-    iconDefaults.forEach(x => {
-      let index = platforms.findIndex(platform => platform.type === x.type);
-      let categoryIcons = [];
-      while (index >= 0) {
-        let iconImage = platforms[index].icon_url || x.icon_url;
-        categoryIcons.push(
-          <div key={counter} className="single-icon">
-            <a href={platforms[index].url}><img src={iconImage} /></a>
-          </div>
-        );
-        counter += 1;
-        platforms.splice(index, 1);
-        index = platforms.findIndex(platform => platform.type === x.type);
-      }
-      icons.push(...categoryIcons);      
-    });
-    let visible = icons.length > 4 ? icons.slice(0,4) : icons;
-    let hidden = icons.slice(4).length;
-    return(
-      visible.length > 0 && <div className="grid-card-icons-footer">
-        {visible}{hidden > 0 && <div className="more-icons-text">and {hidden} more</div>}
-      </div>);
-    
+  getSourceProperties(platform) {
+    switch(platform) {
+      case "Facebook": return {bgcolor: "#3c5a9a", img_url: "https://next.pro.to/assets/social-icons/facebook.png"}
+      case "Twitter": return {bgcolor: "#1da1f2", img_url: "https://next.pro.to/assets/social-icons/twitter.png"}
+      default: return {bgcolor: "#c75c5c", img_url: "https://next.pro.to/assets/social-icons/news.png"}
+    }
   }
 
 
@@ -93,23 +47,39 @@ class ListCards extends React.Component {
     } else {
       let cards = this.state.cardsVisible.map((card, i) => {
         let class_name = (((i+1)% this.state.cardsInRow) == 0) ? "protograph-card div-without-margin-right" : "protograph-card";
+        let {bgcolor, img_url} =this.getSourceProperties(card.source_platform);
         return(
           <div
-            id={`protograph-grid-card-${card.state}-${card.date}`}
-            // onClick={this.props.showModal}
-            data-viewcast_id={card.view_cast_id}
-            className={`protograph-grid-card protograph-trigger-modal ${class_name}`} 
-            data-iframe_url={card.iframe_url}
-            >
-            <div className="proto-website-grid-card">
-              <div className="grid-card-cover">
-                <img src={card.img_url} height="220" width="220" />
+            className={`protograph-grid-card protograph-trigger-modal ${class_name}`}>
+            <a href={card.source_url} target="_blank">
+              <div className="proto-social-post-card">
+                <div className="post-img" style={{backgroundColor: bgcolor}}>
+                  <img src={img_url} height="20" width="20" />
+                </div>
+                <div className="post-content">
+                  <div className="post-title">
+                    <span className="post-name">{card.complainant_name}</span>
+                    <span className="post-handle">{card.complainant_handle}</span>
+                    {/* <div className="post-expand"><img src="" /></div> */}
+                  </div>
+                  
+                </div>
+                <div className="post-data">
+                  {card.text && card.text.length > 160? card.text.substr(0,(card.text.indexOf(' ', 160) < 0? 160: card.text.indexOf(' ', 160))) + '...':card.text}
+                </div>
+                
+                <div className="post-categories">
+                  <div className="post-category">
+                    <div className="post-category-title">ACCUSED</div>
+                    <div className="post-category-data">{card.accused_name? card.accused_name: 'Unknown'}</div>
+                  </div>
+                  <div className="post-category">
+                    <div className="post-category-title">NATURE OF ASSAULT</div>
+                    <div className="post-category-data">{card.nature? card.nature: 'Unknown'}</div>
+                  </div>
+                </div>
               </div>
-              <div className="grid-card-title">{card.title}</div>
-              {card.subtitle && <div className="grid-card-subtitle">{card.subtitle}</div>}
-              {card.description && <p>{card.description}</p>}
-              {card.platforms && card.platforms.length > 0 && this.renderIcons(card.platforms)}
-            </div>
+            </a>
           </div>
         )
       })
