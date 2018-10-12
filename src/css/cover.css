@@ -15,14 +15,20 @@ body {
   clear: both;
 }
 
-.protograph-col16-mode {
+.protograph-card {
+  position: relative;
+  overflow: hidden;
+  letter-spacing: normal;
+  box-sizing: border-box;
+}
+
+.cover-container {
   width: 1260px;
   height: 420px;
   background: radial-gradient(ellipse, #000, #220427);
   margin: 0 auto;
   vertical-align: top;
   position: relative;
-  
   margin-bottom: 20px;
 }
 
@@ -63,7 +69,7 @@ body {
   font-size: 12px;
   display: block;
   width: 90%;
-  text-align: justify;
+  text-align: center;
   margin: auto;
   margin-bottom: 20px;
 }
@@ -81,7 +87,7 @@ body {
 
 .flip-counter {
   margin: auto;
-  width: 85%;
+  width: max-content;
 }
 
 .flip-num-bg {
@@ -90,7 +96,8 @@ body {
   background-color: var(--hl1);
   border-radius: 12px;
   display: inline-block;
-  margin-left: 6px; 
+  margin-left: 3px;
+  margin-right: 3px; 
 }
 
 .flip-num {
@@ -162,8 +169,42 @@ body {
   to {top: -785px;}
 }
 
-@media only screen and (min-width: 500px) {
-    .protograph-col4-mode {
-        width: 360px;
+/*Mobile CSS*/
+
+@media only screen and (max-width: 500px) {
+    .cover-container {
+        width: 100%;
+        margin-bottom: 0px;
+    }
+
+    .anim-div {
+      display: none;
+    }
+
+    .stats-div {
+      width: 100%;
+    }
+
+    .title {
+      font-size: 62px;
+      height: auto;
+      padding-bottom: 20px;
+    }
+
+    .flip-num-container {
+      width: 100%;
+    }
+
+    .flip-num-bg {
+      width: 60px;
+      height: 80px;
+    }
+
+    .flip-num {
+      font-size: 62px;
+    }
+
+    .flip-counter-caption {
+      font-size: 23px;
     }
 }
