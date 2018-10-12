@@ -51,9 +51,9 @@ export default class MeTooCover extends React.Component {
 
           <div className="anim-div">
             <div className="tweets">
-              <img src="img/layer1.png" className="layer1" />
-              <img src="img/layer2.png" className="layer2" />
-              <img src="img/layer3.png" className="layer3" />
+              <img src="http://civic-tools.pro.to/assets/layer1.png" className="layer1" />
+              <img src="http://civic-tools.pro.to/assets/layer2.png" className="layer2" />
+              <img src="http://civic-tools.pro.to/assets/layer3.png" className="layer3" />
             </div> 
           </div>
           

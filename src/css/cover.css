@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald|Patua+One|Open+Sans');
 
 :root {
-  --basecol: #6a0e7c;
+  --basecol: #3f0748;
   --hl1: #26b297;
   --hl2: #2ee9ff;
   --hl3: #ffe324;
@@ -25,7 +25,7 @@ body {
 .cover-container {
   width: 1260px;
   height: 420px;
-  background: radial-gradient(ellipse, #000, #220427);
+  background: radial-gradient(ellipse, var(--basecol), #220427);
   margin: 0 auto;
   vertical-align: top;
   position: relative;
@@ -58,6 +58,7 @@ body {
   height: 100px;
   margin: auto;
   width: min-content;
+  width: -moz-min-content;
   line-height: 1;
   text-transform: uppercase;
   margin-top: 10px;
@@ -88,6 +89,7 @@ body {
 .flip-counter {
   margin: auto;
   width: max-content;
+  width: -moz-max-content;
 }
 
 .flip-num-bg {
@@ -175,6 +177,7 @@ body {
     .cover-container {
         width: 100%;
         margin-bottom: 0px;
+        background: radial-gradient(circle, var(--basecol), #220427);
     }
 
     .anim-div {
