@@ -1,89 +1,49 @@
 import React from 'react';
-import '../css/resources.css';
+import ReactDOM from 'react-dom';
 
 export default class MeTooC4A extends React.Component {
   constructor(props) {
     super(props)
+
+    this.state = {
+      data: [{
+        "title": "Addressing sexual harassment",
+        "links": [{"title": "As complainants", "desc": "Filing complaints, self-care", "icon": "img/survivor.png", "url": ""},
+        {"title": "As employees", "desc": "Response strategies, support groups", "icon": "img/employee.png", "url": ""},
+        {"title": "As employers", "desc": "ICC, workshops, reporting", "icon": "img/org.png", "url": ""}]
+       }]
+    }
   }
 
   exportData() {
     return this.props.selector.getBoundingClientRect();
   }
 
- 
-  renderCol16(){
+  renderResources(){
+    let data = this.state.data[0]
+    console.log(data.links)
       return(
-        <div className="col-16-tool-strip">
+        <div className="tool-strip-container">
           <div className="col-4-tool-card">
             <div className="tool-card-title">
-              Addressing sexual harassment
+              {data.title}
             </div>
           </div>
-          <div className="col-4-tool-card">
-              <img className="tool-card-img" src="img/survivor.png" />
+          {data.links.map(x => {return(
+              <div className="col-4-tool-card">
+              <img className="tool-card-img" src={x.icon} />
               <div className="tool-card-title">
-              As a complainant
+              {x.title}
               </div>
-              <div className="tool-card-desc">Filing complaints, self-care</div>
+              <div className="tool-card-desc">{x.desc}</div>
               <img src="img/right-arrow.png" className="right-arrow-icon" />
           </div>
-          <div className="col-4-tool-card">
-          <img className="tool-card-img" src="img/employee.png" />
-            <div className="tool-card-title">
-              As employees
-              </div>
-              <div className="tool-card-desc">Response strategies, support groups</div>
-              <img src="img/right-arrow.png" className="right-arrow-icon" />
-          </div>
-          <div className="col-4-tool-card">
-              <img className="tool-card-img" src="img/org.png" />
-              <div className="tool-card-title">
-              As an organisation
-              </div>
-              <div className="tool-card-desc">ICC, workshops, reporting</div>
-              <img src="img/right-arrow.png" className="right-arrow-icon"/>
-          </div>
+            )})}
         </div>
       )
   }
 
-  renderCol4(){
-      return(
-        <div className="col-4-tool-strip col-4-mobile">
-          <div id="card_1_tool" className="col-4-tool-card">
-            <div className="tool-card-title">
-              Resources for:
-            </div>
-          </div>
-          <div className="horizontal-divider"></div>
-          <div id="card_2_tool" className="col-4-tool-card">
-            <div className="tool-card-title">
-              <img className="tool-card-img" src="img/survivor.png" />
-               Survivors
-              <img src="img/right-arrow.png" className="right-arrow-icon"/>
-            </div>
-          </div>
-          <div className="horizontal-divider"></div>
-          <div id="card_3_tool" className="col-4-tool-card">
-            <div className="tool-card-title">
-              <img className="tool-card-img" src="img/employee.png" />
-              Colleagues
-              <img src="img/right-arrow.png" className="right-arrow-icon"/>
-            </div>
-          </div>
-          <div className="horizontal-divider"></div>
-          <div className="col-4-tool-card">
-            <div className="tool-card-title">
-              <img className="tool-card-img" src="img/org.png" />
-              Organisations
-              <img src="img/right-arrow.png" className="right-arrow-icon"/>
-            </div>
-          </div>
-        </div>
-      )      
-  }
-
-  render() {
-        return this.renderCol16();
+  render() {    
+      return this.renderResources()
   }
 }
