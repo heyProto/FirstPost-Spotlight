@@ -9,9 +9,9 @@ export default class MeTooC4A extends React.Component {
     this.state = {
       data: [{
         "title": "Addressing sexual harassment",
-        "links": [{"title": "As complainants", "desc": "Filing complaints, self-care", "icon": "http://civic-tools.pro.to/assets/survivor.png", "url": ""},
-        {"title": "As employees", "desc": "Response strategies, support groups", "icon": "http://civic-tools.pro.to/assets/employee.png", "url": ""},
-        {"title": "As employers", "desc": "ICC, workshops, reporting", "icon": "http://civic-tools.pro.to/assets/org.png", "url": ""}]
+        "links": [{"title": "As complainants", "desc": "Filing complaints, self-care", "icon": "http://projects.pro.to/assets/survivor.png", "url": "https://projects.pro.to/stories/complainants.html"},
+        {"title": "As employees", "desc": "Response strategies, support groups", "icon": "http://projects.pro.to/assets/employee.png", "url": "https://projects.pro.to/stories/for-employees.html"},
+        {"title": "As employers", "desc": "ICC, workshops, reporting", "icon": "http://projects.pro.to/assets/org.png", "url": "https://projects.pro.to/stories/for-employers.html"}]
        }]
     }
   }
@@ -37,7 +37,7 @@ export default class MeTooC4A extends React.Component {
               {x.title}
               </div>
               <div className="tool-card-desc">{x.desc}</div>
-              <img src="http://civic-tools.pro.to/assets/right-arrow.png" className="right-arrow-icon" />
+              <img src="http://projects.pro.to/assets/right-arrow.png" className="right-arrow-icon" />
           </div>
             )})}
         </div>

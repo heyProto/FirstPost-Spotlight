@@ -144,6 +144,7 @@
             </script>
         <% } %>
 
+        <% if (site_header_json['header_logo_url'] !== '') { %>
         <div class="proto-app-navbar-masthead" id="site_header" style="<%= site_header_json['header_background_color'] -%>">
             <div class="proto-app-navbar-proto-container">
                 <div class="proto-app-navbar-site-logo proto-app-navbar-position-<%= site_header_json['header_logo_position'] -%>">
@@ -157,6 +158,10 @@
                 </div>
             </div>
         </div>
+        <% } %>
+
+    
+        
         <div class="proto-app-navbar-proto-container">
             <div id="proto_app_header">
                 <div class="proto-app-navbar">

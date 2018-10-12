@@ -75,7 +75,7 @@ class ListCards extends React.Component {
                   </div>
                   <div className="post-category">
                     <div className="post-category-title">NATURE OF ASSAULT</div>
-                    <div className="post-category-data">{card.nature? card.nature: 'Unknown'}</div>
+                    <div className="post-category-data">{card.nature && card.nature.length>0? card.nature.join(', '): 'Unknown'}</div>
                   </div>
                 </div>
               </div>

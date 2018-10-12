@@ -7,6 +7,10 @@
   --hl3: #ffe324;
 }
 
+.proto-app-fixed-navbar {
+  position: static !important;
+}
+
 body {
   min-width: initial !important;
 }
@@ -26,10 +30,9 @@ body {
   width: 1260px;
   height: 420px;
   background: radial-gradient(ellipse, var(--basecol), #220427);
-  margin: 0 auto;
+  margin-bottom: 20px !important;
   vertical-align: top;
   position: relative;
-  margin-bottom: 20px;
 }
 
 .anim-div, .stats-div {
@@ -56,7 +59,6 @@ body {
   font-size: 80px;
   display: block;
   height: 100px;
-  margin: auto;
   width: min-content;
   width: -moz-min-content;
   line-height: 1;
@@ -70,8 +72,6 @@ body {
   font-size: 12px;
   display: block;
   width: 90%;
-  text-align: center;
-  margin: auto;
   margin-bottom: 20px;
 }
 
@@ -82,12 +82,12 @@ body {
 .flip-num-container {
   display: block;
   width: 60%;
-  margin: auto;
   margin-top: 30px;
+  position: absolute;
+  bottom: 20px;
 }
 
 .flip-counter {
-  margin: auto;
   width: max-content;
   width: -moz-max-content;
 }
@@ -117,11 +117,10 @@ body {
   color: #fff;
   font-family: 'Oswald';
   text-transform: uppercase;
-  padding: 5px;
+  padding: 5px 0px;
   font-size: 28px;
   letter-spacing: 2px;
   line-height: 1;
-  text-align: center;
 }
 
 .tweets {
@@ -176,8 +175,10 @@ body {
 @media only screen and (max-width: 500px) {
     .cover-container {
         width: 100%;
-        margin-bottom: 0px;
+        height: 100%;
+        margin-bottom: 0px !important;
         background: radial-gradient(circle, var(--basecol), #220427);
+        text-align: center;
     }
 
     .anim-div {
@@ -192,10 +193,16 @@ body {
       font-size: 62px;
       height: auto;
       padding-bottom: 20px;
+      margin: auto;
+    }
+
+    .desc {
+      margin: auto;
     }
 
     .flip-num-container {
       width: 100%;
+      position: static;
     }
 
     .flip-num-bg {
@@ -209,5 +216,9 @@ body {
 
     .flip-counter-caption {
       font-size: 23px;
+    }
+
+    .flip-counter {
+      margin: auto;
     }
 }
