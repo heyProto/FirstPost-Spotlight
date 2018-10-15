@@ -8,8 +8,8 @@ export default class MeTooCover extends React.Component {
 
     this.state = {
       data: [{
-        "title": "#Spotlight",
-        "desc": "#Spotlight is a watch on sexual assault and everyday harassment in the workplace. The project is an attempt to collate experiences, opinions and resources on sexual harassment in the Indian media and newsrooms. Through a database of cases reported and resources, the project also seeks to present insights on sexual harassment in Indian media"
+        "title": "Spotlight",
+        "desc": "#Spotlight is a watch on sexual assault and everyday harassment in the workplace. The project is an attempt to collate experiences, opinions and resources on sexual harassment in the Indian media and newsrooms. Through a database of cases reported and resources, the project also seeks to present insights on sexual harassment in Indian media."
       }]
     }
   }
@@ -26,6 +26,27 @@ export default class MeTooCover extends React.Component {
     // console.log(numArray)
       return (
         <div id="protograph_div" className="cover-container">
+
+          <div className="anim-div">
+            <div className="tweets">
+              <img src="https://projects.pro.to/assets/ptweet1.png" className="ptweet1" />
+              <img src="https://projects.pro.to/assets/ptweet2.png" className="ptweet2" />
+              <img src="https://projects.pro.to/assets/ptweet3.png" className="ptweet3" />
+              <img src="https://projects.pro.to/assets/ptweet4.png" className="ptweet4" />
+              <img src="https://projects.pro.to/assets/ptweet5.png" className="ptweet5" />
+              <img src="https://projects.pro.to/assets/ptweet6.png" className="ptweet6" />
+              <img src="https://projects.pro.to/assets/btweet1.png" className="btweet1" />
+              <img src="https://projects.pro.to/assets/btweet2.png" className="btweet2" />
+              <img src="https://projects.pro.to/assets/btweet3.png" className="btweet3" />
+              <img src="https://projects.pro.to/assets/gtweet1.png" className="gtweet1" />
+              <img src="https://projects.pro.to/assets/gtweet2.png" className="gtweet2" />
+              <img src="https://projects.pro.to/assets/gtweet3.png" className="gtweet3" />
+              <img src="https://projects.pro.to/assets/gtweet4.png" className="gtweet4" />
+              <img src="https://projects.pro.to/assets/gtweet5.png" className="gtweet5" />
+              <img src="https://projects.pro.to/assets/gtweet6.png" className="gtweet6" />
+            </div>
+          </div>
+
           <div className="stats-div">
             <div className="title">{data.title}</div>
             <div className="desc">{data.desc}</div>
@@ -39,14 +60,6 @@ export default class MeTooCover extends React.Component {
             </div>
           </div>
 
-          <div className="anim-div">
-            <div className="tweets">
-              <img src="http://projects.pro.to/assets/layer1.png" className="layer1" />
-              <img src="http://projects.pro.to/assets/layer2.png" className="layer2" />
-              <img src="http://projects.pro.to/assets/layer3.png" className="layer3" />
-            </div> 
-          </div>
-          
         </div>
       );
   }

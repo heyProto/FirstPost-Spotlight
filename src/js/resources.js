@@ -22,7 +22,6 @@ export default class MeTooC4A extends React.Component {
 
   renderResources(){
     let data = this.state.data[0]
-    console.log(data.links)
       return(
         <div className="tool-strip-container">
           <div className="col-4-tool-card">
@@ -31,20 +30,22 @@ export default class MeTooC4A extends React.Component {
             </div>
           </div>
           {data.links.map(x => {return(
-              <div className="col-4-tool-card">
-              <img className="tool-card-img" src={x.icon} />
-              <div className="tool-card-title">
-              {x.title}
-              </div>
-              <div className="tool-card-desc">{x.desc}</div>
-              <img src="http://projects.pro.to/assets/right-arrow.png" className="right-arrow-icon" />
-          </div>
-            )})}
+            <div className="col-4-tool-card">
+              <a className='tool-card-link' href={x.url} target='_blank'>
+                <img className="tool-card-img" src={x.icon} />
+                <div className="tool-card-title">
+                  {x.title}
+                </div>
+                <div className="tool-card-desc">{x.desc}</div>
+                <img src="https://projects.pro.to/assets/right-arrow.png" className="right-arrow-icon" />
+              </a>
+            </div>
+          )})}
         </div>
       )
   }
 
-  render() {    
+  render() {
       return this.renderResources()
   }
 }

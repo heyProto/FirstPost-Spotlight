@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald|Patua+One|Open+Sans');
 
 :root {
-  --basecol: #3f0748;
+  --basecol: #6a0e7c;
   --hl1: #26b297;
   --hl2: #2ee9ff;
   --hl3: #ffe324;
@@ -51,6 +51,7 @@ body {
 .stats-div {
   width: 40%;
   vertical-align: top;
+  text-align: center;
 }
 
 .title {
@@ -60,10 +61,9 @@ body {
   display: block;
   height: 100px;
   width: min-content;
-  width: -moz-min-content;
   line-height: 1;
   text-transform: uppercase;
-  margin-top: 10px;
+  margin: 10px auto;
 }
 
 .desc {
@@ -72,7 +72,7 @@ body {
   font-size: 12px;
   display: block;
   width: 90%;
-  margin-bottom: 20px;
+  margin: 0px auto 30px;
 }
 
 .desc > b {
@@ -81,15 +81,12 @@ body {
 
 .flip-num-container {
   display: block;
-  width: 60%;
-  margin-top: 30px;
-  position: absolute;
-  bottom: 20px;
+  margin: auto;
 }
 
 .flip-counter {
   width: max-content;
-  width: -moz-max-content;
+  margin: auto;
 }
 
 .flip-num-bg {
@@ -129,35 +126,105 @@ body {
 
 /*Elements*/
 
-.layer1 {
+.ptweet1, .ptweet2, .ptweet3, .ptweet4, .ptweet5, .ptweet6 {
   position: absolute;
   z-index: 3;
-  animation: move1 47s -10s linear infinite;
 }
 
-.layer2 {
+.gtweet1, .gtweet2, .gtweet3, .gtweet4, .gtweet5, .gtweet6 {
   position: absolute;
   z-index: 2;
   opacity: 0.85;
-  top: -40px;
-  animation: move2 68s -10s linear infinite;
 }
 
-.layer3 {
+.btweet1, .btweet2, .btweet3 {
   position: absolute;
   z-index: 1;
   opacity: 0.7;
-  top: -35px;
+}
+
+.ptweet1 {
+  top: 10px;
   left: 40px;
-  animation: move3 85s -30s linear infinite;
+  animation: move1 47s -20s linear infinite;
+}
+
+.ptweet2 {
+  top: 300px;
+  left: 90px;
+  animation: move1 47s -30s linear infinite;
+}
+
+.ptweet3 {
+  top: 600px;
+  left: 0px;
+  animation: move1 47s -1s linear infinite;
+}
+
+.ptweet4 {
+  top: 120px;
+  left: 240px;
+  animation: move1 47s -38s linear infinite;
+}
+
+.ptweet5 {
+  top: 510px;
+  left: 410px;
+  animation: move1 47s -5s linear infinite;
+}
+
+.ptweet6 {
+  top: 360px;
+  left: 340px;
+  animation: move1 47s -14s linear infinite;
+}
+
+.gtweet1 {
+  left: 400px;
+  animation: move2 68s -17s linear infinite;
+}
+
+.gtweet2 {
+  animation: move2 68s -20s linear infinite;
+}
+
+.gtweet3 {
+  left: 500px;
+  animation: move2 68s -48s linear infinite;
+}
+
+.gtweet4 {
+  animation: move2 68s -56s linear infinite;
+}
+
+.gtweet5 {
+  left: 450px;
+  animation: move2 68s -32s linear infinite;
+}
+
+.gtweet6 {
+  animation: move2 68s -1s linear infinite;
+}
+
+.btweet1 {
+  animation: move3 85s -10s linear infinite;
+}
+
+.btweet2 {
+  left: 500px;
+  animation: move3 85s -20s linear infinite;
+}
+
+.btweet3 {
+  animation: move3 85s -60s linear infinite;
 }
 
 
 /*Keyframes*/
 
 @keyframes move1 {
-  from {top: 400px;}
-  to {top: -1000px;}
+  from {top: 720px;}
+  to {top: -400px;}
 }
 
 @keyframes move2 {
