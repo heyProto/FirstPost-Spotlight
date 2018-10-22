@@ -77,6 +77,9 @@
 
 .proto-social-post-card .post-category-data {
   font-size: 12px;
+  white-space: nowrap; 
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .protograph-card {

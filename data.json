@@ -11,9 +11,7 @@
     "complainant_handle": "@Raksha_Kumar",
     "industry": "News Media",
     "context": "Not clear",
-    "nature": [
-      "Forced Kissing"
-    ]  
+    "nature" : ["Forced Kissing"]
   },
   {
     "source_url": "https://twitter.com/someshjha7/status/1049527089911799808",
@@ -27,9 +25,7 @@
     "complainant_handle": "",
     "industry": "News Media",
     "context": "Professional",
-    "nature": [
-      "Groping"
-    ]  
+    "nature" : ["Groping"]
   },
   {
     "source_url": "https://twitter.com/divya_krthk/status/1048769850196164608",
@@ -43,10 +39,7 @@
     "complainant_handle": "",
     "industry": "News Media",
     "context": "Personal",
-    "nature": [
-      "Unwelcome sexual advances",
-      "Sexual assault"
-    ]  
+    "nature" : ["Unwelcome sexual advances", "Sexual assault"]
   },
   {
     "source_url": "https://twitter.com/RayBihu/status/1048836538719563777",
@@ -60,9 +53,7 @@
     "complainant_handle": "@RayBihu",
     "industry": "Journalism College",
     "context": "Personal",
-    "nature": [
-      "Forced Kissing"
-    ]
+    "nature" : ["Forced Kissing"]
   },
   {
     "source_url": "https://twitter.com/PedestrianPoet/status/1049990545387507717",
@@ -76,9 +67,7 @@
     "complainant_handle": "",
     "industry": "News Media",
     "context": "Personal",
-    "nature": [
-      "Sexual assault"
-    ]  
+    "nature" : ["Sexual assault"]
   },
   {
     "source_url": "https://twitter.com/japna_p/status/1049991431706763264",
@@ -92,9 +81,7 @@
     "complainant_handle": "",
     "industry": "News Media",
     "context": "Personal",
-    "nature": [
-      "Sexual assault"
-    ]
+    "nature" : ["Sexual assault"]
   },
   {
     "source_url": "https://twitter.com/ekchidiya_/status/1048673590596386816",
@@ -108,9 +95,7 @@
     "complainant_handle": "@ekchidiya_",
     "industry": "Journalism College",
     "context": "Not clear",
-    "nature": [
-      "Persistent pursuing"
-    ]  
+    "nature" : ["Persistent pursuing"]
   },
   {
     "source_url": "https://twitter.com/mansa_narain/status/1049878405863366656",
@@ -124,9 +109,7 @@
     "complainant_handle": "mansa_narain",
     "industry": "Journalism College",
     "context": "Not clear",
-    "nature": [
-      "Groping"
-    ]
+    "nature" : ["Groping"]
   },
   {
     "source_url": "https://www.facebook.com/charu.so/posts/10156498948960667",
@@ -140,9 +123,7 @@
     "complainant_handle": "",
     "industry": "Film Industry",
     "context": "Professional",
-    "nature": [
-      "Obscene Behaviour"
-    ]
+    "nature" : ["Obscene Behaviour"]
   },
   {
     "source_url": "https://twitter.com/DabbaVader/status/1047896695776796673",
@@ -156,7 +137,7 @@
     "complainant_handle": "@DabbaVader",
     "industry": "Stand-up comedy",
     "context": "Not clear",
-    "nature" :[]  
+    "nature" : ["Obscene Behaviour", "Online Harassment", "Demanding nude pictures"]
   },
   {
     "source_url": "https://twitter.com/SoKneeOh/status/1048957177438691328",
@@ -170,7 +151,7 @@
     "complainant_handle": "Anonymous",
     "industry": "News Media",
     "context": "Professional",
-    "nature" :[]  
+    "nature" : ["Groping", "Unwelcome sexual advances"]
   },
   {
     "source_url": "https://twitter.com/sohinichat/status/1049281912114536448",
@@ -184,7 +165,7 @@
     "complainant_handle": "@sohinichat",
     "industry": "News Media",
     "context": "Professional",
-    "nature" :[]  
+    "nature" : ["Groping", "Unwelcome sexual advances"]
   },
   {
     "source_url": "https://twitter.com/japna_p/status/1048508290739519488",
@@ -198,7 +179,7 @@
     "complainant_handle": "@japna_p",
     "industry": "News Media",
     "context": "Professional",
-    "nature" :[]  
+    "nature" : ["Unwelcome sexual advances"]
   },
   {
     "source_url": "https://twitter.com/ramad08/status/1048393890904989696",
@@ -212,7 +193,7 @@
     "complainant_handle": "@ramad08",
     "industry": "News Media",
     "context": "Personal",
-    "nature" :[]  
+    "nature" : ["Groping", "Unwelcome sexual advances"]
   },
   {
     "source_url": "https://twitter.com/a_naari/status/1048407081139822592",
@@ -226,7 +207,7 @@
     "complainant_handle": "@a_naari",
     "industry": "News Media",
     "context": "Personal",
-    "nature" :[]  
+    "nature" : ["Unwelcome sexual advances"]
   },
   {
     "source_url": "https://twitter.com/ManiraChaudhary/status/1048642759052025856",
@@ -240,7 +221,7 @@
     "complainant_handle": "",
     "industry": "News Media",
     "context": "Professional",
-    "nature" :[]  
+    "nature" : ["Unwelcome sexual advances"]
   },
   {
     "source_url": "https://twitter.com/TheRestlessQuil/status/1048077522733289472",
@@ -254,7 +235,7 @@
     "complainant_handle": "@TheRestlessQuil",
     "industry": "News Media",
     "context": "Professional",
-    "nature" :[]  
+    "nature" : ["Forced Kissing"]
   },
   {
     "source_url": "https://twitter.com/PriyankaKumbhat/status/1048861171544195072",
@@ -268,7 +249,7 @@
     "complainant_handle": "@PriyankaKumbhat",
     "industry": "News Media",
     "context": "Not clear",
-    "nature" :[]  
+    "nature" : ["Groping", "Persistent pursuing"]
   },
   {
     "source_url": "https://twitter.com/caricaptured/status/1048915169483448320",
@@ -282,7 +263,7 @@
     "complainant_handle": "@caricaptured",
     "industry": "Journalism College",
     "context": "Not clear",
-    "nature" :[]  
+    "nature" : ["Abuse", "Sexual bullying and Harassment"]
   },
   {
     "source_url": "https://twitter.com/meeradhika/status/1048945414706098178",
@@ -296,7 +277,7 @@
     "complainant_handle": "@meeradhika",
     "industry": "News Media",
     "context": "Professional",
-    "nature" :[]  
+    "nature" : ["Unwelcome sexual advances"]
   },
   {
     "source_url": "https://twitter.com/ManiraChaudhary/status/1048642759052025856",
@@ -310,7 +291,7 @@
     "complainant_handle": "",
     "industry": "News Media",
     "context": "Professional",
-    "nature" :[]  
+    "nature" : ["Unwelcome sexual advances"]
   },
   {
     "source_url": "https://www.facebook.com/ananya.biswas.98/posts/1951866354875228?comment_id=1951878058207391&notif_id=1539174742501893&notif_t=feed_comment",
@@ -324,7 +305,7 @@
     "complainant_handle": "@uniqueherownway",
     "industry": "News Media",
     "context": "Professional",
-    "nature" :[]  
+    "nature" : ["Harassment", "Unwelcome sexual advances"]
   },
   {
     "source_url": "https://www.facebook.com/surbhi625/posts/10217397247778121",
@@ -338,7 +319,7 @@
     "complainant_handle": "",
     "industry": "Comedy",
     "context": "Professional",
-    "nature" :[]  
+    "nature" : ["Unwelcome sexual advances"]
   },
   {
     "source_url": "https://twitter.com/domeofthedevil/status/1048425224855638016",
@@ -352,7 +333,7 @@
     "complainant_handle": "@domeofthedevil",
     "industry": "To discuss",
     "context": "Not clear",
-    "nature" :[]  
+    "nature" : ["Not clear"]
   },
   {
     "source_url": "https://twitter.com/unwokemedia/status/1048212963956592645",
@@ -366,7 +347,7 @@
     "complainant_handle": "",
     "industry": "News Media",
     "context": "Not clear",
-    "nature" :[]  
+    "nature" : ["Not clear"]
   },
   {
     "source_url": "https://twitter.com/TheRestlessQuil/status/1048051906029998080",
@@ -380,7 +361,7 @@
     "complainant_handle": "@TheRestlessQuil",
     "industry": "News Media",
     "context": "Professional",
-    "nature" :[]  
+    "nature" : ["Groping"]
   },
   {
     "source_url": "https://twitter.com/TheRestlessQuil/status/1048102930660937728",
@@ -394,7 +375,7 @@
     "complainant_handle": "",
     "industry": "News Media",
     "context": "Professional",
-    "nature" :[]  
+    "nature" : ["Unwelcome sexual advances"]
   },
   {
     "source_url": "https://twitter.com/TheRestlessQuil/status/1048156355285188609",
@@ -408,7 +389,7 @@
     "complainant_handle": "",
     "industry": "Film Industry",
     "context": "Professional",
-    "nature" :[]  
+    "nature" : ["Groping"]
   },
   {
     "source_url": "https://twitter.com/Apoorvasripathi/status/1049359786008109056",
@@ -422,7 +403,7 @@
     "complainant_handle": "@Apoorvasripathi",
     "industry": "News Media",
     "context": "Professional",
-    "nature" :[]  
+    "nature" : ["Groping"]
   },
   {
     "source_url": "https://twitter.com/TheRestlessQuil/status/1048564072231260160",
@@ -436,7 +417,7 @@
     "complainant_handle": "",
     "industry": "News Media",
     "context": "Professional",
-    "nature" :[]  
+    "nature" : ["Groping"]
   },
   {
     "source_url": "https://twitter.com/TheRestlessQuil/status/1048158148077531136",
@@ -450,7 +431,7 @@
     "complainant_handle": "",
     "industry": "News Media",
     "context": "Professional",
-    "nature" :[]  
+    "nature" : ["Unwelcome sexual advances"]
   },
   {
     "source_url": "https://twitter.com/TheRestlessQuil/status/1048148071316635648",
@@ -464,7 +445,7 @@
     "complainant_handle": "",
     "industry": "Law",
     "context": "Professional",
-    "nature" :[]  
+    "nature" : ["Unwelcome sexual advances"]
   },
   {
     "source_url": "https://twitter.com/priyaramani/status/1049279608263245824",
@@ -478,7 +459,7 @@
     "complainant_handle": "@priyaramani",
     "industry": "News Media",
     "context": "Professional",
-    "nature" :[]  
+    "nature" : ["Unwelcome sexual advances"]
   },
   {
     "source_url": "https://twitter.com/prernabindra/status/1048644697709826048",
@@ -492,7 +473,7 @@
     "complainant_handle": "@prernabindra",
     "industry": "News Media",
     "context": "Professional",
-    "nature" :[]  
+    "nature" : ["Unwelcome sexual advances"]
   },
   {
     "source_url": "https://twitter.com/ShutapaPaul/status/1049605712504967168",
@@ -506,7 +487,7 @@
     "complainant_handle": "@ShutapaPaul",
     "industry": "News Media",
     "context": "Professional",
-    "nature" :[]  
+    "nature" : ["Unwelcome sexual advances", "Harassment"]
   },
   {
     "source_url": "https://twitter.com/sujataanandan/status/1049284583567609856",
@@ -520,7 +501,7 @@
     "complainant_handle": "",
     "industry": "News Media",
     "context": "Professional",
-    "nature" :[]  
+    "nature" : ["Unwelcome sexual advances", "Harassment"]
   },
   {
     "source_url": "https://twitter.com/shammybaweja/status/1049303380143693825",
@@ -534,7 +515,7 @@
     "complainant_handle": "@Shammybaweja",
     "industry": "News Media",
     "context": "Professional",
-    "nature" :[]  
+    "nature" : ["Unwelcome sexual advances"]
   },
   {
     "source_url": "https://thewire.in/media/mj-akbar-sexual-harassment",
@@ -548,7 +529,7 @@
     "complainant_handle": "",
     "industry": "News Media",
     "context": "Professional",
-    "nature" :[]  
+    "nature" : ["Groping", "Forced Kissing", "Sexual assault", "Persistent pursuing", "Unwelcome sexual advances"]
   },
   {
     "source_url": "https://indianexpress.com/article/india/metoo-movement-six-women-speak-up-accuse-minister-mj-akbar-of-sexual-harassment-when-he-was-editor-5394625/",
@@ -562,7 +543,7 @@
     "complainant_handle": "@SuparnaSharma",
     "industry": "News Media",
     "context": "Professional",
-    "nature" :[]  
+    "nature" : ["Groping", "Unwelcome sexual advances", "Staring in a lewd manner"]
   },
   {
     "source_url": "https://www.dailyo.in/politics/metoo-movement-sexual-harassment-at-workplace/story/1/27145.html",
@@ -576,7 +557,7 @@
     "complainant_handle": "@_sabanaqvi",
     "industry": "News Media",
     "context": "Professional",
-    "nature" :[]  
+    "nature" : ["Persistent pursuing"]
   },
   {
     "source_url": "https://twitter.com/KadambariM/status/1050039941361594368",
@@ -590,7 +571,7 @@
     "complainant_handle": "@KadambariM",
     "industry": "News Media",
     "context": "Professional",
-    "nature" :[]  
+    "nature" : ["Staring in a lewd manner"]
   },
   {
     "source_url": "https://twitter.com/153anju/status/1049479703709528064",
@@ -604,7 +585,7 @@
     "complainant_handle": "@153anju",
     "industry": "News Media",
     "context": "Professional",
-    "nature" :[]  
+    "nature" : ["Not clear"]
   },
   {
     "source_url": "https://twitter.com/ShumaRaha/status/1049295817369161730",
@@ -618,7 +599,7 @@
     "complainant_handle": "@ShumaRaha",
     "industry": "News Media",
     "context": "Professional",
-    "nature" :[]  
+    "nature" : ["Not clear"]
   },
   {
     "source_url": "https://twitter.com/ekchidiya_/status/1048672231415369728",
@@ -632,7 +613,7 @@
     "complainant_handle": "@ekchidiya_",
     "industry": "Journalism College",
     "context": "Not clear",
-    "nature" :[]  
+    "nature" : ["Groping"]
   },
   {
     "source_url": "https://twitter.com/Neha__Tyagi/status/1048797626903224320",
@@ -646,7 +627,7 @@
     "complainant_handle": "@Neha_Tyagi",
     "industry": "Journalism College",
     "context": "Not clear",
-    "nature" :[]  
+    "nature" : ["Groping", "Forced Kissing"]
   },
   {
     "source_url": "https://twitter.com/TheRestlessQuil/status/1048045893340078081",
@@ -660,7 +641,7 @@
     "complainant_handle": "@TheRestlessQuil",
     "industry": "News Media",
     "context": "Professional",
-    "nature" :[]  
+    "nature" : ["Unwelcome sexual advances"]
   },
   {
     "source_url": "https://twitter.com/AnooBhu/status/1047921955041497088",
@@ -674,7 +655,7 @@
     "complainant_handle": "@AnooBhu",
     "industry": "News Media",
     "context": "Professional",
-    "nature" :[]  
+    "nature" : ["Not clear"]
   },
   {
     "source_url": "https://twitter.com/thakur_meenal/status/1048656040756215809",
@@ -688,7 +669,7 @@
     "complainant_handle": "@thakur_meenal",
     "industry": "Journalism College",
     "context": "Not clear",
-    "nature" :[]  
+    "nature" : ["Unwelcome sexual advances", "Groping / Touching without consent"]
   },
   {
     "source_url": "https://twitter.com/divya_krthk/status/1048475546806439936?s=12",
@@ -702,7 +683,7 @@
     "complainant_handle": "",
     "industry": "Journalism College",
     "context": "Not clear",
-    "nature" :[]  
+    "nature" : ["Unwelcome sexual advances", "Groping"]
   },
   {
     "source_url": "https://twitter.com/PouloCruelo/status/1048516023153020928",
@@ -716,7 +697,7 @@
     "complainant_handle": "",
     "industry": "Journalism College",
     "context": "Not clear",
-    "nature" :[]  
+    "nature" : ["Unwelcome sexual advances"]
   },
   {
     "source_url": "https://twitter.com/ShashwatiET/status/1048512726820147201",
@@ -730,7 +711,7 @@
     "complainant_handle": "@ShashwatiET",
     "industry": "Journalism College",
     "context": "Not clear",
-    "nature" :[]  
+    "nature" : ["Not clear"]
   },
   {
     "source_url": "https://twitter.com/PouloCruelo/status/1048823055622057984",
@@ -744,7 +725,7 @@
     "complainant_handle": "",
     "industry": "News Media",
     "context": "Professional",
-    "nature" :[]  
+    "nature" : ["Not clear"]
   },
   {
     "source_url": "https://twitter.com/priyakamal/status/1048060166283964416",
@@ -758,7 +739,7 @@
     "complainant_handle": "@priyakamal",
     "industry": "News Media",
     "context": "Professional",
-    "nature" :[]  
+    "nature" : ["Not clear"]
   },
   {
     "source_url": "https://twitter.com/TheRestlessQuil/status/1048182445777084416",
@@ -772,7 +753,7 @@
     "complainant_handle": "",
     "industry": "Media",
     "context": "Professional",
-    "nature" :[]  
+    "nature" : ["Persistent pursuing", "Harassment"]
   },
   {
     "source_url": "https://www.facebook.com/charu.so/posts/10156498948960667",
@@ -786,7 +767,7 @@
     "complainant_handle": "",
     "industry": "News Media",
     "context": "Professional",
-    "nature" :[]  
+    "nature" : ["Unwelcome sexual advances"]
   },
   {
     "source_url": "https://twitter.com/bitingfriends/status/1048570568734167041",
@@ -800,7 +781,7 @@
     "complainant_handle": "",
     "industry": "News Media",
     "context": "Professional",
-    "nature" :[]  
+    "nature" : ["Persistent pursuing"]
   },
   {
     "source_url": "https://twitter.com/TheRestlessQuil/status/1048904967233265664",
@@ -814,7 +795,7 @@
     "complainant_handle": "@TheRestlessQuil",
     "industry": "Bollywood",
     "context": "Professional",
-    "nature" :[]  
+    "nature" : ["Unwelcome sexual advances"]
   },
   {
     "source_url": "https://twitter.com/ShwetaSengar/status/1049702415124049925",
@@ -828,7 +809,7 @@
     "complainant_handle": "@ShwetaSengar",
     "industry": "News Media",
     "context": "Professional",
-    "nature" :[]  
+    "nature" : ["Groping"]
   },
   {
     "source_url": "https://twitter.com/someshjha7/status/1049297758266568704",
@@ -842,7 +823,7 @@
     "complainant_handle": "",
     "industry": "News Media",
     "context": "Professional",
-    "nature" :[]  
+    "nature" : ["Groping", "Unwelcome sexual advances", "Staring in a lewd manner"]
   },
   {
     "source_url": "https://twitter.com/divya_krthk/status/1048132905124343808",
@@ -856,7 +837,7 @@
     "complainant_handle": "@divya_krthk",
     "industry": "Journalism College",
     "context": "Not clear",
-    "nature" :[]  
+    "nature" : ["Groping", "Forced Kissing", "Unwelcome sexual advances"]
   },
   {
     "source_url": "https://twitter.com/Santia87937044/status/1048804497756229633",
@@ -870,7 +851,7 @@
     "complainant_handle": "",
     "industry": "News Media",
     "context": "Professional",
-    "nature" :[]  
+    "nature" : ["Staring in a lewd manner"]
   },
   {
     "source_url": "https://enewsroom.in/sexually-harassed-editor-toi-me-too/",
@@ -884,7 +865,7 @@
     "complainant_handle": "",
     "industry": "News Media",
     "context": "Professional",
-    "nature" :[]  
+    "nature" : ["Harassment", "Unwelcome sexual advances"]
   },
   {
     "source_url": "https://www.facebook.com/LovingAmy.i/posts/1432607946870488",
@@ -898,7 +879,7 @@
     "complainant_handle": "",
     "industry": "News Media",
     "context": "Professional",
-    "nature" :[]  
+    "nature" : ["Harassment", "Unwelcome sexual advances"]
   },
   {
     "source_url": "https://twitter.com/Timeisu73665459/status/1048828974627999744",
@@ -912,7 +893,7 @@
     "complainant_handle": "@Timeisu73665459",
     "industry": "News Media",
     "context": "Personal",
-    "nature" :[]  
+    "nature" : ["Harassment", "Unwelcome sexual advances", "Abuse"]
   },
   {
     "source_url": "https://twitter.com/payalsh2/status/1049275241644679169",
@@ -926,7 +907,7 @@
     "complainant_handle": "@payalsh2",
     "industry": "Journalism College",
     "context": "Not clear",
-    "nature" :[]  
+    "nature" : ["Groping"]
   },
   {
     "source_url": "https://twitter.com/nehahaz/status/1048560316986970113",
@@ -940,7 +921,7 @@
     "complainant_handle": "@nehahaz",
     "industry": "News Media",
     "context": "Personal",
-    "nature" :[]  
+    "nature" : ["Groping", "Sexual assault"]
   },
   {
     "source_url": "https://twitter.com/SalonieM/status/1049189848815300608",
@@ -954,7 +935,7 @@
     "complainant_handle": "@SalonieM",
     "industry": "News Media",
     "context": "Personal",
-    "nature" :[]  
+    "nature" : ["Forced Kissing", "Groping"]
   },
   {
     "source_url": "https://twitter.com/ManiraChaudhary/status/1048642759052025856",
@@ -968,7 +949,7 @@
     "complainant_handle": "",
     "industry": "News Media",
     "context": "Professional",
-    "nature" :[]  
+    "nature" : ["Unwelcome sexual advances"]
   },
   {
     "source_url": "https://twitter.com/HamsiniH/status/1048170648865046529",
@@ -982,7 +963,7 @@
     "complainant_handle": "@HamsiniH",
     "industry": "Journalism College",
     "context": "Not clear",
-    "nature" :[]  
+    "nature" : ["Unwelcome sexual advances"]
   },
   {
     "source_url": "https://www.facebook.com/shreyawow619/posts/10212825185164075",
@@ -996,7 +977,7 @@
     "complainant_handle": "",
     "industry": "Journalism College",
     "context": "Not clear",
-    "nature" :[]  
+    "nature" : ["Unwelcome sexual advances", "Persistent pursuing"]
   },
   {
     "source_url": "https://twitter.com/natashjarathore/status/1049945331302043648",
@@ -1010,7 +991,7 @@
     "complainant_handle": "@natashjarathore",
     "industry": "Not clear",
     "context": "Professional",
-    "nature" :[]  
+    "nature" : ["Sexual assault"]
   },
   {
     "source_url": "https://twitter.com/MandakiniGahlot/status/1049987666807148545",
@@ -1024,7 +1005,7 @@
     "complainant_handle": "@MandakiniGahlot",
     "industry": "Not clear",
     "context": "Professional",
-    "nature" :[]  
+    "nature" : ["Forced Kissing", "Groping", "Humiliating"]
   },
   {
     "source_url": "https://www.facebook.com/charu.so/posts/10156498948960667",
@@ -1038,7 +1019,7 @@
     "complainant_handle": "",
     "industry": "News Media",
     "context": "Professional",
-    "nature" :[]  
+    "nature" : ["Forced Kissing", "Groping", "Unwelcome sexual advances"]
   },
   {
     "source_url": "https://twitter.com/guks123/status/1048231774931677190",
@@ -1052,7 +1033,7 @@
     "complainant_handle": "@guks123",
     "industry": "News Media",
     "context": "Professional",
-    "nature" :[]  
+    "nature" : ["Not clear"]
   },
   {
     "source_url": "https://www.facebook.com/adrijabose00/posts/2162881693745311",
@@ -1066,7 +1047,7 @@
     "complainant_handle": "",
     "industry": "News Media",
     "context": "Personal",
-    "nature" :[]  
+    "nature" : ["Sexual Assault"]
   },
   {
     "source_url": "https://www.facebook.com/adrijabose00/posts/2162881693745311",
@@ -1080,7 +1061,7 @@
     "complainant_handle": "",
     "industry": "News Media",
     "context": "Not clear",
-    "nature" :[]  
+    "nature" : ["To discuss"]
   },
   {
     "source_url": "https://www.firstpost.com/india/my-metoo-moment-founding-editor-of-national-newspaper-forced-himself-on-me-planted-shame-fear-almost-broke-me-5337121.html",
@@ -1094,7 +1075,7 @@
     "complainant_handle": "",
     "industry": "News Media",
     "context": "Professional",
-    "nature" :[]  
+    "nature" : ["Groping", "Forced Kissing", "Staring in a lewd manner"]
   },
   {
     "source_url": "https://twitter.com/shankarmya/status/1048283359976337409",
@@ -1108,7 +1089,7 @@
     "complainant_handle": "@shankarmya",
     "industry": "News Media / Art",
     "context": "Professional",
-    "nature" :[]  
+    "nature" : ["Obscene Behaviour", "Persistent pursuing"]
   },
   {
     "source_url": "https://twitter.com/venkatesandeepa/status/1048688020541661186",
@@ -1122,7 +1103,7 @@
     "complainant_handle": "@venkatesandeepa",
     "industry": "News Media",
     "context": "Professional",
-    "nature" :[]  
+    "nature" : ["Groping", "Staring in a lewd manner"]
   },
   {
     "source_url": "https://twitter.com/RatnikaS/status/1048805742038269957",
@@ -1136,7 +1117,7 @@
     "complainant_handle": "@RatnikaS",
     "industry": "News Media",
     "context": "Professional",
-    "nature" :[]  
+    "nature" : ["Obscene Behaviour", "Unwelcome sexual advances", "Harassment"]
   },
   {
     "source_url": "https://twitter.com/shankarmya/status/1048283094359429121",
@@ -1150,7 +1131,7 @@
     "complainant_handle": "@shankarmya",
     "industry": "News Media",
     "context": "Professional",
-    "nature" :[]  
+    "nature" : ["Groping"]
   },
   {
     "source_url": "https://www.facebook.com/charu.so/posts/10156498948960667",
@@ -1164,7 +1145,7 @@
     "complainant_handle": "",
     "industry": "News Media",
     "context": "Professional",
-    "nature" :[]  
+    "nature" : ["Harassment - not clear"]
   },
   {
     "source_url": "https://www.facebook.com/charu.so/posts/10156498948960667",
@@ -1178,7 +1159,7 @@
     "complainant_handle": "",
     "industry": "News Media",
     "context": "Professional",
-    "nature" :[]  
+    "nature" : ["Groping / Touching without consent"]
   },
   {
     "source_url": "https://twitter.com/radiantbear/status/1048451309513261061",
@@ -1192,7 +1173,7 @@
     "complainant_handle": "@radiantbear",
     "industry": "Bollywood",
     "context": "Not clear",
-    "nature" :[]  
+    "nature" : ["Sexual Assault"]
   },
   {
     "source_url": "https://twitter.com/nikita1712/status/1048169442272849921",
@@ -1206,7 +1187,7 @@
     "complainant_handle": "@nikita1712",
     "industry": "News Media",
     "context": "Professional",
-    "nature" :[]  
+    "nature" : ["Forced Kissing"]
   },
   {
     "source_url": "https://twitter.com/IshitaYadav/status/1050315229744119809",
@@ -1220,7 +1201,7 @@
     "complainant_handle": "@IshitaYadav",
     "industry": "News Media",
     "context": "Not clear",
-    "nature" :[]  
+    "nature" : ["Unwelcome sexual advances"]
   },
   {
     "source_url": "https://twitter.com/sandygrains/status/1050295082874626048",
@@ -1234,7 +1215,7 @@
     "complainant_handle": "",
     "industry": "News Media",
     "context": "Not clear",
-    "nature" :[]  
+    "nature" : ["Unwelcome sexual advances", "Obscene Behaviour", "Groping"]
   },
   {
     "source_url": "https://twitter.com/TheRestlessQuil/status/1050233401775538176",
@@ -1248,7 +1229,7 @@
     "complainant_handle": "",
     "industry": "News Media",
     "context": "Professional",
-    "nature" :[]  
+    "nature" : ["Unwelcome sexual advances", "Harassment"]
   },
   {
     "source_url": "https://twitter.com/divya_krthk/status/1049366351536476160",
@@ -1262,7 +1243,7 @@
     "complainant_handle": "",
     "industry": "News Media",
     "context": "Personal",
-    "nature" :[]  
+    "nature" : ["Rape"]
   },
   {
     "source_url": "https://twitter.com/karishmau/status/1050402162646241280",
@@ -1276,7 +1257,7 @@
     "complainant_handle": "@karishmau",
     "industry": "Film Industry",
     "context": "Professional",
-    "nature" :[]  
+    "nature" : ["Obscene Behaviour", "Forced Kissing", "Unwelcome sexual advances"]
   },
   {
     "source_url": "https://twitter.com/TheRestlessQuil/status/1050612731483545601",
@@ -1290,7 +1271,7 @@
     "complainant_handle": "",
     "industry": "News Media",
     "context": "Professional",
-    "nature" :[]  
+    "nature" : ["Obsene behaviour / online harassment"]
   },
   {
     "source_url": "https://twitter.com/UBhattacheryya/status/1049979073206919168",
@@ -1304,7 +1285,7 @@
     "complainant_handle": "@UBhattacheryya",
     "industry": "News Media",
     "context": "Personal",
-    "nature" :[]  
+    "nature" : ["Groping"]
   },
   {
     "source_url": "https://www.huffingtonpost.in/2018/10/12/new-accuser-says-mj-akbar-harassed-her-when-she-was-an-18-year-old-intern_a_23558579/",
@@ -1318,7 +1299,7 @@
     "complainant_handle": "",
     "industry": "News Media",
     "context": "Professional",
-    "nature" :[]  
+    "nature" : ["Groping", "Forced Kissing"]
   },
   {
     "source_url": "https://twitter.com/TheRestlessQuil/status/1048118790834343937",
@@ -1332,7 +1313,7 @@
     "complainant_handle": "",
     "industry": "News Media",
     "context": "Professional",
-    "nature" :[]  
+    "nature" : ["Obsene behaviour / online harassment"]
   },
   {
     "source_url": "https://twitter.com/TheRestlessQuil/status/1048540484673527808",
@@ -1346,7 +1327,7 @@
     "complainant_handle": "",
     "industry": "News Media",
     "context": "Professional",
-    "nature" :[]  
+    "nature" : ["Unwelcome sexual advances"]
   },
   {
     "source_url": "https://twitter.com/TheRestlessQuil/status/1048735946965831681",
@@ -1360,7 +1341,7 @@
     "complainant_handle": "@bhakisundar",
     "industry": "News Media",
     "context": "Professional",
-    "nature" :[]  
+    "nature" : ["Persistent pursuing"]
   },
   {
     "source_url": "https://twitter.com/TheRestlessQuil/status/1048736625109266432",
@@ -1374,5 +1355,6 @@
     "complainant_handle": "",
     "industry": "News Media",
     "context": "Professional",
-    "nature" :[]  }
+    "nature" : ["Unwelcome sexual advances"]
+  }
 ]

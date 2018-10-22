@@ -314,6 +314,8 @@ export default class Filter extends React.Component {
 
     filteredData.sort((x,y) => new Date(y.date) - new Date(x.date));
 
+    filteredData = [... new Set(filteredData)];
+
     this.setState({
       filteredData: filteredData
     }, this.onChange);
