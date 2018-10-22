@@ -9,9 +9,9 @@ export default class MeTooC4A extends React.Component {
     this.state = {
       data: [{
         "title": "Addressing sexual harassment",
-        "links": [{"title": "As complainants", "desc": "Filing Complaints, Self-Care", "icon": "http://projects.pro.to/assets/survivor.png", "url": "https://projects.pro.to/stories/complainants.html"},
-        {"title": "As co-workers", "desc": "Response Strategies, Support Groups", "icon": "http://projects.pro.to/assets/employee.png", "url": "https://projects.pro.to/stories/for-employees.html"},
-        {"title": "As employers", "desc": "ICC, Workshops, Reporting", "icon": "http://projects.pro.to/assets/org.png", "url": "https://projects.pro.to/stories/for-employers.html"}]
+        "links": [{"title": "As complainants", "desc": "Filing Complaints, Self-Care", "icon": "http://p.firstpost.com/assets/survivor.png", "url": "https://p.firstpost.com/stories/complainants.html"},
+        {"title": "As co-workers", "desc": "Response Strategies, Support Groups", "icon": "http://p.firstpost.com/assets/employee.png", "url": "https://p.firstpost.com/stories/for-employees.html"},
+        {"title": "As employers", "desc": "ICC, Workshops, Reporting", "icon": "http://p.firstpost.com/assets/org.png", "url": "https://p.firstpost.com/stories/for-employers.html"}]
        }]
     }
   }
@@ -37,7 +37,7 @@ export default class MeTooC4A extends React.Component {
                   {x.title}
                 </div>
                 <div className="tool-card-desc">{x.desc}</div>
-                <img src="https://projects.pro.to/assets/right-arrow.png" className="right-arrow-icon" />
+                <img src="https://p.firstpost.com/assets/right-arrow.png" className="right-arrow-icon" />
               </a>
             </div>
           )})}
