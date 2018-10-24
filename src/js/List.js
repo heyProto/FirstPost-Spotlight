@@ -53,30 +53,32 @@ class ListCards extends React.Component {
             className={`protograph-grid-card protograph-trigger-modal ${class_name}`}>
             <a href={card.source_url} target="_blank">
               <div className="proto-social-post-card">
-                <div className="post-img" style={{backgroundColor: bgcolor}}>
-                  <img src={img_url} height="20" width="20" />
-                </div>
                 <div className="post-content">
-                  <div className="post-title">
-                    <span className="post-name">{card.complainant_name}</span>
-                    <span className="post-handle">{card.complainant_handle}</span>
-                    {/* <div className="post-expand"><img src="" /></div> */}
+                <div className="post-category">
+                    <div className="post-category-title">ACCUSED</div>
+                    <div className="post-category-data">{card.accused_name? card.accused_name: 'Unknown'}</div> 
                   </div>
                   
                 </div>
-                <div className="post-data">
-                  {card.text && card.text.length > 160? card.text.substr(0,(card.text.indexOf(' ', 160) < 0? 160: card.text.indexOf(' ', 160))) + '...':card.text}
-                </div>
+                
                 
                 <div className="post-categories">
-                  <div className="post-category">
-                    <div className="post-category-title">ACCUSED</div>
-                    <div className="post-category-data">{card.accused_name? card.accused_name: 'Unknown'}</div>
+
+                <div className="post-category">
+                    <div className="post-category-title">COMPLAINANT</div>
+                    <div className="post-category-data">{card.complainant_name? card.complainant_name: 'Unknown'}</div>
                   </div>
+
                   <div className="post-category">
                     <div className="post-category-title">NATURE OF ASSAULT</div>
                     <div className="post-category-data">{card.nature && card.nature.length>0? card.nature.join(', '): 'Unknown'}</div>
                   </div>
+
+                  <div className="post-category">
+                    <div className="post-category-title">REPORTED ON</div>
+                    <div className="post-category-data">{(card.source_platform == 'Twitter' || card.source_platform == 'Facebook') ? 'Social Media': card.source_platform}</div>
+                  </div>
+                
                 </div>
               </div>
             </a>

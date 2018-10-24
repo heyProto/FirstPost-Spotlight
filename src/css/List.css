@@ -31,11 +31,25 @@
 }
 
 .proto-social-post-card .post-content {
-  width: 240px;
+  width: 100%;
   display: inline-block;
   vertical-align: top;
-  margin: 0px 10px;
-  padding-top: 15px;
+  /*margin: 0px 10px;*/
+  padding-top: 5px;
+}
+
+.post-content > .post-category > .post-category-data {
+  font-size: 16px;
+  color: #fff;
+  font-family: Avenir-Bold;
+}
+
+.post-content > .post-category > .post-category-title {
+  color: #efefef;
+}
+
+.post-content {
+  background-color: var(--basecol);
 }
 
 .proto-social-post-card .post-name {
@@ -77,14 +91,13 @@
 
 .proto-social-post-card .post-category-data {
   font-size: 12px;
-  white-space: nowrap; 
-  overflow: hidden;
+  overflow: visible;
   text-overflow: ellipsis;
 }
 
 .protograph-card {
     width: 300px;
-    height: 280px;
+    height: 200px;
     background-color: #f9f9f9;
     /* cursor: pointer; */
     display: inline-block;
