@@ -69,6 +69,7 @@ class App extends React.Component {
           filterJSON: filterJSON,
           keyValue: keyValue
         }, (e) => {
+          this.initF3BTWShareLinks();
           var that = this;
           if (window.ga) {
             ga(function(){
@@ -355,12 +356,23 @@ class App extends React.Component {
     if (this.state.dataJSON === undefined) {
       return this.renderLoader();
     } else {
+      $('.social-share-icons').css("display", "block");
       return (
         <div className="app">
           <Cover dataSize={this.state.dataJSON.length}/>
           <Resources />
           <div className="banner-area">
             <div className="proto-col col-4 filter-col protograph-filter-area">
+              <div className="summary">
+                <div className="article-share-icons">
+                  <a href='#' id='facebook-share-link' target="_blank"><div className="single-share-icon"><img src="https://cdn.protograph.pykih.com/Assets/proto-app/img/article-share-facebook.png" /></div></a>
+                  <a href='#' id='twitter-share-link' target="_blank"><div className="single-share-icon"><img src="https://cdn.protograph.pykih.com/Assets/proto-app/img/article-share-twitter.png" /></div></a>
+                </div>
+                {
+                  ProtoGraph.page.summary &&
+                    <div className="summary-text">{ProtoGraph.page.summary}</div>
+                }
+              </div>
               <Filter
                 configurationJSON={this.props.filterConfigurationJSON}
                 dataJSON={this.state.filteredDataJSON}

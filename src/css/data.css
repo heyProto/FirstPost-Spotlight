@@ -25,6 +25,30 @@
 .clearfix {
   clear: both; }
 
+.summary {
+  color: grey;
+  font-family: AvenirLTStd-Book;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+.article-share-icons {
+  background: var(--basecol);
+  width: 300px;
+  display: inline-block;
+  text-align: center;
+  height: 50px;
+  float: left;
+}
+
+.single-share-icon {
+  width: 150px;
+  text-align: center;
+  float: left;
+  display: inline-block;
+  color: white;
+  margin-top: 17px;
+}
 
 .tabs.active-area {
   display: block;
