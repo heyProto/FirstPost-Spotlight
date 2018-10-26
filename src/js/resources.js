@@ -10,7 +10,7 @@ export default class MeTooC4A extends React.Component {
       data: [{
         "title": "Addressing sexual harassment",
         "links": [{"title": "As complainants", "desc": "Filing Complaints, Self-Care", "icon": "http://p.firstpost.com/assets/survivor.png", "url": "https://p.firstpost.com/stories/complainants.html"},
-        {"title": "As co-workers", "desc": "Response Strategies, Support Groups", "icon": "http://p.firstpost.com/assets/employee.png", "url": "https://p.firstpost.com/stories/for-employees.html"},
+        {"title": "As coworkers", "desc": "Response Strategies, Support Groups", "icon": "http://p.firstpost.com/assets/employee.png", "url": "https://p.firstpost.com/stories/for-employees.html"},
         {"title": "As employers", "desc": "ICC, Workshops, Reporting", "icon": "http://p.firstpost.com/assets/org.png", "url": "https://p.firstpost.com/stories/for-employers.html"}]
        }]
     }

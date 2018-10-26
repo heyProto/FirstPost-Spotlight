@@ -10,7 +10,7 @@ class ListCards extends React.Component {
     let stateVar = {
       no_of_cards: 28,
       cardsInRow: window.innerWidth <= 500 ? 1 : 3,
-      cardsVisible: this.props.dataJSON.slice(0, 28)
+      cardsVisible: this.props.dataJSON.slice(0, 27)
     };
 
     this.state = stateVar;
@@ -32,14 +32,6 @@ class ListCards extends React.Component {
     })
   }
 
-  getSourceProperties(platform) {
-    switch(platform) {
-      case "Facebook": return {bgcolor: "#3c5a9a", img_url: "https://next.pro.to/assets/social-icons/facebook.png"}
-      case "Twitter": return {bgcolor: "#1da1f2", img_url: "https://next.pro.to/assets/social-icons/twitter.png"}
-      default: return {bgcolor: "#c75c5c", img_url: "https://next.pro.to/assets/social-icons/news.png"}
-    }
-  }
-
 
   render() {
       if (this.props.dataJSON.length === 0) {
@@ -47,7 +39,6 @@ class ListCards extends React.Component {
     } else {
       let cards = this.state.cardsVisible.map((card, i) => {
         let class_name = (((i+1)% this.state.cardsInRow) == 0) ? "protograph-card div-without-margin-right" : "protograph-card";
-        let {bgcolor, img_url} =this.getSourceProperties(card.source_platform);
         return(
           <div
             className={`protograph-grid-card protograph-trigger-modal ${class_name}`}>
@@ -64,21 +55,24 @@ class ListCards extends React.Component {
                 
                 <div className="post-categories">
 
-                <div className="post-category">
+                  <div className="post-category">
                     <div className="post-category-title">COMPLAINANT</div>
                     <div className="post-category-data">{card.complainant_name? card.complainant_name: 'Unknown'}</div>
                   </div>
 
                   <div className="post-category">
-                    <div className="post-category-title">NATURE OF ASSAULT</div>
+                    <div className="post-category-title">NATURE OF HARASSMENT</div>
                     <div className="post-category-data">{card.nature && card.nature.length>0? card.nature.join(', '): 'Unknown'}</div>
                   </div>
 
-                  <div className="post-category">
-                    <div className="post-category-title">REPORTED ON</div>
-                    <div className="post-category-data">{(card.source_platform == 'Twitter' || card.source_platform == 'Facebook') ? 'Social Media': card.source_platform}</div>
-                  </div>
+                  
                 
+                </div>
+
+                <div className="social-icons">
+                <div className="post-category-data">{(card.news_platform != 'Social Media') && (<a href={card.news_url} className="news-link">{card.news_platform}</a>)}</div>
+                  {card.social_platform == 'Facebook' && (<a href={card.social_url}><img src="https://next.pro.to/assets/social-icons/facebook-outline.png" className="card-social" /></a>)}
+                  {card.social_platform == 'Twitter' && (<a href={card.social_url}><img src="https://next.pro.to/assets/social-icons/twitter-outline.png" className="card-social" /></a>)}
                 </div>
               </div>
             </a>

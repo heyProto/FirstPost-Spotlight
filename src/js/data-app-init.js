@@ -20,7 +20,7 @@ ProtoGraph.initDataApp = function () {
         },
         filters: [
             {
-                "alias": "Nature of assault",
+                "alias": "Nature of harassment",
                 "propName": "nature"
             },
             {
@@ -32,8 +32,8 @@ ProtoGraph.initDataApp = function () {
                 "propName": "context"
             },
             {
-                "alias": "Platform",
-                "propName": "source_platform"
+                "alias": "Reported on",
+                "propName": "reported_on"
             }
         ]
     });

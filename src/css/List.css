@@ -34,8 +34,8 @@
   width: 100%;
   display: inline-block;
   vertical-align: top;
+  height: 48px;
   /*margin: 0px 10px;*/
-  padding-top: 5px;
 }
 
 .post-content > .post-category > .post-category-data {
@@ -46,6 +46,7 @@
 
 .post-content > .post-category > .post-category-title {
   color: #efefef;
+  margin-bottom: 0px;
 }
 
 .post-content {
@@ -87,17 +88,40 @@
 .proto-social-post-card .post-category-title {
  font-size: 10px;
   color: #999999;
+  margin-bottom: 2px;
 }
 
 .proto-social-post-card .post-category-data {
-  font-size: 12px;
+  font-size: 14px;
   overflow: visible;
   text-overflow: ellipsis;
 }
 
+.social-icons {
+  width: 280px;
+  height: 23px;
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  margin: 2px 8px;
+}
+
+.card-social {
+  width: 20px;
+  float: right;
+}
+
+.news-link {
+  color: var(--hl1);
+}
+
+.social-icons > .post-category-data {
+  float: left;
+}
+
 .protograph-card {
     width: 300px;
-    height: 200px;
+    height: 220px;
     background-color: #f9f9f9;
     /* cursor: pointer; */
     display: inline-block;
