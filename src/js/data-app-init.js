@@ -34,6 +34,10 @@ ProtoGraph.initDataApp = function () {
             {
                 "alias": "Reported on",
                 "propName": "reported_on"
+            },
+            {
+                "alias": "Accused name",
+                "propName": "accused_name"
             }
         ]
     });
