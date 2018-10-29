@@ -210,9 +210,11 @@ class App extends React.Component {
     }
     else {	//sort by count
     	arr.sort((a, b) => { 
-	    	let key1 = a.count,
-		        key2 = b.count;
-		      return key2 - key1;
+	    	if (a.count < b.count) return 1;
+        if (a.count > b.count) return -1;
+
+        if (a.name > b.name) return 1;
+        if (a.name < b.name) return -1;
     	});
     }
     if(na >= 0)
