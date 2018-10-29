@@ -34,6 +34,8 @@
 
 .summary-text {
   white-space: pre-wrap;
+  padding-top: 10px;
+  line-height: 16px;
 }
 
 .article-share-icons {
