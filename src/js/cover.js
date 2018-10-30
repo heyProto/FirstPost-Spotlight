@@ -8,7 +8,7 @@ export default class MeTooCover extends React.Component {
 
     this.state = {
       data: [{
-        "title": "Spotlight",
+        "title": "#Spotlight",
         "desc": "#Spotlight is a watch on sexual assault and everyday harassment in the workplace. The project is an attempt to collate experiences, opinions and resources on sexual harassment in the Indian media and newsrooms."
       }]
     }

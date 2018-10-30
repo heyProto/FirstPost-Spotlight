@@ -20,25 +20,26 @@ ProtoGraph.initDataApp = function () {
         },
         filters: [
             {
-                "alias": "Nature of harassment",
-                "propName": "nature"
+                "alias": "Accused name",
+                "propName": "accused_name"
             },
             {
-                "alias": "Industry",
-                "propName": "industry"
+                "alias": "Nature of harassment",
+                "propName": "nature"
             },
             {
                 "alias": "Context",
                 "propName": "context"
             },
             {
+                "alias": "Industry",
+                "propName": "industry"
+            },
+            
+            {
                 "alias": "Reported on",
                 "propName": "reported_on"
-            },
-            {
-                "alias": "Accused name",
-                "propName": "accused_name"
-            }
+            }          
         ]
     });
     x.renderLaptop();
