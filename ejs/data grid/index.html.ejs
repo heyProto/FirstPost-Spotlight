@@ -160,8 +160,8 @@
         </div>
         <% } %>
 
-    
-        
+
+
         <div class="proto-app-navbar-proto-container">
             <div id="proto_app_header">
                 <div class="proto-app-navbar">
@@ -249,7 +249,7 @@
                     </div>
                 </div>
             </div>
-            
+
             <% if (streams_mapping['cta'] && streams_mapping['cta'].cards){ %>
                 <div class="proto-col col-16">
                     <div class="col-16-story-card">
@@ -351,7 +351,7 @@
                 function gtag(){dataLayer.push(arguments);}
                 gtag('js', new Date());
 
-                gtag('config', '<%= site.ga_code %>');
+                gtag('config', '<%= site.ga_code %>', 'auto');
             </script>
         <% } %>
         <script src="<%= AWS_S3_ENDPOINT %>/lib/protoGraph.min.js" defer></script>

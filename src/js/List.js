@@ -71,8 +71,8 @@ class ListCards extends React.Component {
 
                 <div className="social-icons">
                 <div className="post-category-data">{(card.news_platform != 'Social Media') && (<a href={card.news_url} className="news-link">{card.news_platform}</a>)}</div>
-                  {card.social_platform == 'Facebook' && (<a href={card.social_url}><img src="https://next.pro.to/assets/social-icons/facebook-outline.png" className="card-social" /></a>)}
-                  {card.social_platform == 'Twitter' && (<a href={card.social_url}><img src="https://next.pro.to/assets/social-icons/twitter-outline.png" className="card-social" /></a>)}
+                  {card.social_platform == 'Facebook' && (<a href={card.social_url}><img src="https://cdn.protograph.pykih.com/Assets/social-icons/facebook-outline.png" className="card-social" /></a>)}
+                  {card.social_platform == 'Twitter' && (<a href={card.social_url}><img src="https://cdn.protograph.pykih.com/Assets/social-icons/twitter-outline.png" className="card-social" /></a>)}
                 </div>
               </div>
             </a>

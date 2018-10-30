@@ -153,8 +153,8 @@ class App extends React.Component {
 
     url = url.split("#")[0]
 
-    fb_share_url = `http://www.facebook.com/sharer/sharer.php?u=${url}${fb_share ? '&description=' + encodeURI(fb_share) : ''}`;
-    tw_share_url = `http://twitter.com/share?url=${url}${tw_share ? '&text=' + encodeURI(tw_share) : ''}`;
+    fb_share_url = `http://www.facebook.com/sharer/sharer.php?u=${url}${fb_share ? '&description=' + encodeURIComponent(fb_share) : ''}`;
+    tw_share_url = `https://twitter.com/intent/tweet?url=${url}${tw_share ? '&text=' + encodeURIComponent(tw_share) : ''}`;
 
     document.getElementById('facebook-share-link').href = fb_share_url;
     document.getElementById('twitter-share-link').href = tw_share_url;

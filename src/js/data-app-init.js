@@ -20,7 +20,7 @@ ProtoGraph.initDataApp = function () {
         },
         filters: [
             {
-                "alias": "Accused name",
+                "alias": "Accused",
                 "propName": "accused_name"
             },
             {
@@ -39,7 +39,7 @@ ProtoGraph.initDataApp = function () {
             {
                 "alias": "Reported on",
                 "propName": "reported_on"
-            }          
+            }    
         ]
     });
     x.renderLaptop();
