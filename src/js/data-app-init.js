@@ -3,7 +3,7 @@ ProtoGraph.initDataApp = function () {
 
     x.init({
         selector: document.querySelector('#card-list-div'),
-        dataURL: 'https://cdn.protograph.pykih.com/77fd88bf8fff7450b485/data.json',//'./data.json',//streams.Grid.url,//
+        dataURL: 'https://p.firstpost.com/2b7dc12047c9ad78bfdc87a5/index.json',//'./data.json',//streams.Grid.url,//
         chartOptions: {
             height: 700,
             defaultCircleColor: ProtoGraph.site['house_colour']
