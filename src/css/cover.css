@@ -75,6 +75,10 @@ body {
   margin: 20px auto;
 }
 
+.spotlight-logo {
+  width: 100%;
+}
+
 .desc {
   color: #fff;
   font-size: 14px;
